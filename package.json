@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/latchnote",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Latch lightweight note statistics from stdin samples.",
+  "bin": {
+    "latchnote": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/latchnote.git"
+  },
+  "homepage": "https://theworker02.github.io/latchnote/",
+  "keywords": [
+    "latch",
+    "note",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
